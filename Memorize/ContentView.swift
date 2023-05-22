@@ -9,13 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        return RoundedRectangle(cornerRadius: 20).stroke(lineWidth: 3).padding(.horizontal)
     }
 }
 
